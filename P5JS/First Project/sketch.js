@@ -1,5 +1,6 @@
 function setup() {
   createCanvas(400, 400);
+  background(0);
 }
 
 function draw() {
@@ -13,7 +14,7 @@ function draw() {
   rect(195,20,10,30,)
   fill(0,0,255);
   arc(170,25,60,20,0, PI);
-  fill(255,0,0)
+  fill(255,0,0);
   arc(230,35,60,20,PI,0);
   
   
@@ -40,5 +41,3 @@ function draw() {
    fill(0,0,255);
   arc(200,90,140,30,0, PI);
 }
-
-
